@@ -44,9 +44,6 @@ public class HelloApplication extends Application {
 
         calculate.setOnAction(event -> {
 
-            // m= h*r/ 1-(1+r)^-12n ; m= (h*i/1200) / 1-(1+i/1200)^-12n
-
-
                 try{
                     error.setText("");
                     double h = Math.floor(Double.parseDouble(tXLoanAmount.getText())*100)/100;
