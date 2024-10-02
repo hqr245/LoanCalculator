@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                es.ieslosmontecillos.loancalculator/es.ieslosmontecillos.loancalculator.HelloApplication
+                                es.ieslosmontecillos.loancalculator/es.ieslosmontecillos.loancalculator.LoanCalculator
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

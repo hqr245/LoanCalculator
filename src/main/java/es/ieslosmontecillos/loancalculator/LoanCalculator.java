@@ -2,7 +2,6 @@ package es.ieslosmontecillos.loancalculator;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
-import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -10,14 +9,10 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
-import javafx.scene.paint.Color;
-import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
 
-import javax.xml.stream.EventFilter;
 
-
-public class HelloApplication extends Application {
+public class LoanCalculator extends Application {
 
     private final GridPane pane = new GridPane();
 
